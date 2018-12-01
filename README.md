@@ -33,6 +33,9 @@ source activate rasa
 5. pip install  --no-cache-dir rasa_nlu[tensorflow]
 
 ## Clone this repo
+git clone git@github.com:bikashkumars/rasa_nlu_oriya.git
+
+## Run Rasa command to create Model
 python -m rasa_nlu.train -c nlu_config.yml --data nlu.md -o models --fixed_model_name nlu --project current --verbose
 
 ## Test
